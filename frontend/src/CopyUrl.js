@@ -65,7 +65,7 @@ function CopyUrl() {
         />
       </a>
       <div className={enter ? "showhelp" : "hidehelp"}>
-        Need help? Click on the above "?" button.
+        Need help? Click on the below "?" button.
       </div>
     </div>
   );
