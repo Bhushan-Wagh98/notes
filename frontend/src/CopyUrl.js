@@ -5,8 +5,16 @@ function CopyUrl() {
   const [coppied, setCopy] = useState(false);
   const [URL, setUrl] = useState(document.URL);
 
+  function asdf() {
+    setTimeout(() => {
+      setEnter(false);
+    }, 3500);
+  }
+
   useEffect(() => {
     setUrl(document.URL);
+    asdf();
+    setEnter(true);
   }, []);
   function copyfn() {
     navigator.clipboard.writeText(URL);
@@ -53,7 +61,7 @@ function CopyUrl() {
         <img
           src="https://raw.githubusercontent.com/Bhushan-Wagh98/notes/cc54f99807eb426c1f507cb6f5c1f524142bb720/circle-question-solid.svg"
           alt="help"
-          style={{ height: "30px" }}
+          style={{ height: "50px" }}
         />
       </a>
       <div className={enter ? "showhelp" : "hidehelp"}>
