@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .ql-editor {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 1in;
+  margin: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.container .ql-container.ql-snow {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.container .ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #f3f3f3;
+  border: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+@page {
+  margin: 1in;
+}
+
+@media print {
+  body {
+    background: none;
+  }
+
+  .container .ql-editor {
+    width: 6.5in;
+    height: 9in;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    align-self: flex-start;
+  }
+
+  .container .ql-toolbar.ql-snow {
+    display: none;
+  }
+}
+.logodiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  gap: 20px;
+}
+button,
+input {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.logodiv > img {
+  height: 80%;
+}
+/* .copyUrl {
+  gap: 30px;
+  margin-bottom: 10px;
+} */
+.copyUrl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
+  /* width: fit-content; */
+  height: auto;
+  padding: 10px;
+  background-color: #faee7a;
+}
+.copyUrl > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .copyForm button:active {
+  background: red;
+}
+.copyForm button:before {
+  content: "Coppied";
+  position: absolute;
+  top: 30px;
+  right: 45%;
+  background: blue;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: white;
+}
+.copyForm button:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: blue;
+  transform: rotate(45deg);
+  display: none;
+  display: none;
+} */
+/* .copyText {
+  border: none;
+}
+.copyText > img {
+  filter: invert(100%);
+} */
+.showcopy {
+  position: fixed;
+  top: 40px;
+  left: 54%;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: hsl(54, 100%, 61%);
+  font-size: 10px;
+  transition: 0.5s;
+}
+.hidecopy {
+  position: fixed;
+  top: 40px;
+  left: 55%;
+  border-radius: 20px;
+  padding: 5px 10px;
+  opacity: 0;
+  font-size: 10px;
+  transition: 0.5s;
+}
+.copyForm {
+  padding: 5px;
+  background-color: white;
+  border-radius: 8px;
+  width: fit-content;
+  margin: auto;
+}
+.copyForm > input {
+  padding: 1px 5px;
+  width: 300px;
+  border: none;
+}
+.copyForm > input:focus {
+  outline: none;
+}
+.copyForm > button {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(114, 114, 114);
+}
+.copyForm > button > img {
+  filter: invert(100%);
+}
+.createNew {
+  border-radius: 8px;
+  padding: 10px 8px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.ql-toolbar {
+  background-color: white !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(54, 93%, 73%);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(54, 100%, 61%);
+}
+
+@media screen and (max-width: 552px) {
+  .ql-toolbar {
+    overflow-x: auto;
+  }
+  .ql-formats:first-child {
+    /* text-align: right !important; */
+    margin-left: 100px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .ql-toolbar {
+    overflow-x: auto;
+  }
+  .ql-formats:first-child {
+    /* text-align: right !important; */
+    margin-left: 200px !important;
+  }
+}
+.pdfButton {
+  text-align: center;
+}
+.pdfButton > button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.helpButton {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 100000;
+}
+.helpButton > img {
+  /* filter: invert(100); */
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.helpButton:hover > img {
+  opacity: 1;
+  transition: 0.5s;
+}
+.showhelp,
+.hidehelp {
+  background-color: black;
+  width: 160px;
+  color: white;
+  position: fixed;
+  transition: 00.5s;
+  right: 10px;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.showhelp {
+  top: 50px;
+}
+.hidehelp {
+  top: 70px;
+  opacity: 0;
+}
+
+.helpDiv {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+}
+.helpDiv > div {
+  padding: 50px;
+}
+.helpDiv > div > img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+
+code {
+  background-color: rgb(206, 206, 206);
+  padding: 3px 8px;
+  cursor: context-menu;
+  border-radius: 5px;
+}
+.subheadlink {
+  color: blue;
+  margin-right: 5px;
+  font-weight: 600;
+}
+.subheadlink:hover {
+  color: #ffed47;
+}
+/* style={{ color: "blue", marginRight: "5px", fontWeight: "600" }} */
