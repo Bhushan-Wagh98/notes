@@ -68,23 +68,13 @@ This is a team project, built by us in the Hachathon - Unit 7 at Masai School.
 
 ## Roles & Responsibilities :-
 
-- GitHub is Managed & Readme.md done by Bhushan Wagh.
+- GitHub is Managed & Readme.md done by Bhushan.
 
-- The Landing Page is created by Monika Sananse.
+- The TextBox is created by Ankur.
 
-- GoodKart page is designed & functioned by Ankur Singh Yadav.
+- Help page is created by Chandan.
 
-- The Navbar, Search functionality, footer, Search results page, category dropdown is designed and functioned by Bhushan Wagh.
-
-- All products page and filter data is designed & functioned by Chandan Kumar.
-
-- Cart is designed & functioned by Aman Khan.
-
-- Sign Up and Log In page is designed & functioned by Ankur Singh Yadav.
-
-- Checkout page is designed & functioned by Sandeep Raj.
-
-- All the JSON Data is collected by Bhushan Wagh.
+- Backend is created by Bhushan.
 
 
 ## Learning :-
@@ -95,7 +85,7 @@ This is a team project, built by us in the Hachathon - Unit 7 at Masai School.
 
 - We had to learn about many CSS properties that we didn't know before.
 
-- Our skills in JavaScript, Local Storage, ES6, DOM Manipulation and import-export became better.
+- Our skills in JavaScript, React.JS, socket.io, etc became better.
 
 - We all learned how to plan a project and execute that.
 
