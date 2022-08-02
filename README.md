@@ -25,7 +25,7 @@ This is an notes application, where you can create a note and share it to someon
 
 # About this project: 🙌
 
-This is a team project, built by us in the Hachathon - Unit 7 at Masai School.
+This is a team project, built by us in the ```Hackathon``` - Unit 7 at Masai School.
 
 - Here is the link of our website live on netlify: https://share-note.netlify.app/
 
