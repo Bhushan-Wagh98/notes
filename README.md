@@ -51,53 +51,20 @@ This is a team project, built by us in the Hachathon - Unit 7 at Masai School.
 
 **Home Page**
 
-![HomePage](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(517).png)
+![HomePage](https://raw.githubusercontent.com/Bhushan-Wagh98/notes/main/screenshots/copy.jpg)
 
-**Consultatin**
+**Output**
 
-![consultation](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(523).png)
+![output](https://raw.githubusercontent.com/Bhushan-Wagh98/notes/main/screenshots/live%20change.png)
 
-**Lybrate GoodKart**
+**Additional Feature**
 
-![Lybrate GoodKart](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(518).png)
+![Feature](https://raw.githubusercontent.com/Bhushan-Wagh98/notes/main/screenshots/print%20button.jpg)
 
-**Search Bar**
+**Print**
 
-![Search](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(519).png)
+![Print](https://raw.githubusercontent.com/Bhushan-Wagh98/notes/main/screenshots/print.png)
 
-**Search Results**
-
-![SearchResults](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(532).png)
-
-**Product Details**
-
-![ProductDetails](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(522).png)
-
-**Dropdown Navbar**
-
-![DropdownNavbar](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(520).png)
-
-**Footer**
-
-![Footer](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(533).png)
-
-**All Products Page**
-
-![All Products Page](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(534).png)
-
-**Cart And Checkout Page**
-
-![PaymentPage](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(524).png)
-
-**Sign Up / Log In Form**
-
-![SignUp](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(525).png)
-
-![LogIn](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(526).png)
-
-![Payment](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(527).png)
-
-![order placed](https://github.com/Bhushan-Wagh98/lybrate/blob/main/project%20images/Screenshot%20(531).png)
 
 ## Roles & Responsibilities :-
 
