@@ -37,21 +37,15 @@ This is a team project, built by us in the Hachathon - Unit 7 at Masai School.
 
 ### Pages & Features 👇
 
-- `Home Page`: Nav Bar with drop downs, sliding banners & slider for Products.
-- `Sign-In`: User authentication to check whether user email and password match with details existing in the database.
-- `Search`: User can search for any of the products present in the website.
-- `Product Category Page`: Products created dynamically with filter by category, name, price and discount.
-- `Product full Details`: Each product's details is visible by clicking the product.
-- `Cart`: User can see or remove products added in the cart.
-- `Payment Page`: Users can add their payment details, address and can create their account.
-- `Order Successful`: cart gets empty automatically in local storage, once the user lands on this page.
-- `Additional Features`: Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
+- `Home Page`: Notes application with copy the note link and create new note button.
+- `Live Editing`: You can see the live editing your note from any devices
+- `Help Page`: You can see the help section, where you can see the screenshots of how to use our apllication.
 
 ## Tech Stack
 
-- HTML
+- React.JS
 - CSS
-- Javascript - (Reacj.JS, Socket.io)
+- Backend - ( MongoDB, Socket.io )
 
 ## Screenshots :
 
